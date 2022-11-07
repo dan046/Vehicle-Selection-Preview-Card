@@ -49,6 +49,7 @@ p{
     font-weight: 400;
     font-size: 0.8rem;
     font-family: 'Lexend Deca', sans-serif;
+    padding-bottom: 50px;
 }
 
 .sedans{
@@ -68,6 +69,8 @@ button{
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400;
     border-radius: 15px;
+    padding: 10px;
+    width: 30vw;
 }
 
 #sedanBtn{
@@ -107,7 +110,14 @@ button:hover{
     .sedans, .suvs, .luxury{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
+    }
+
+    .sedan-p, .suv-p, .lux-p{
+        padding-bottom: 50px;
+    }
+    button{
+        width: 120px
     }
 }
